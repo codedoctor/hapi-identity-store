@@ -1,6 +1,6 @@
 {
   "name": "hapi-identity-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "main": "lib/index.js",
   "repository": {
@@ -15,16 +15,15 @@
   },
   "description": "Provides some backend data store for identity stuff. This is a work in progress and will change.",
   "dependencies": {
-    "boom" : "2.4.2",
-    "hoek" : "2.3.0",
+    "boom": "2.4.2",
+    "hoek": "2.3.0",
     "mongoose-identity-store-multi-tenant": "0.3.25",
     "mongoose-plugins-created-by": "0.4.1",
     "mongoose-plugins-delete-paranoid": "0.2.0",
     "mongoose-plugins-tags-simple": "0.2.0",
     "mongoose-plugins-timestamp": "0.2.0",
     "mongoose-rest-helper": "0.1.7"
-
-    },
+  },
   "peerDependencies": {
     "hapi": ">=6.2.1",
     "mongoose": ">=3.8.13"
