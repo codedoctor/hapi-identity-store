@@ -36,6 +36,13 @@ module.exports = (grunt) ->
           require: 'coffee-script/register'
         src: ['test/**/*-tests.coffee']
  
+     mochacov:
+      options:
+        coveralls:
+          repoToken: "d51l67xykyyaw7v4pddjna7xW1YZT0FDG"
+        require: ['coffee-script/register','should']
+      all: ['test/**/*-tests.coffee']
+
   config.watch =
       scripts:
         files: ['src/**/*.coffee']
@@ -63,6 +70,12 @@ module.exports = (grunt) ->
   grunt.registerTask "test", [
     'env:test'
     'mochaTest:test'
+  ]
+
+  grunt.registerTask "testandcoverage", [
+    'env:test'
+    'mochaTest:test'
+    'mochacov'
   ]
 
   grunt.registerTask 'deploy', [
