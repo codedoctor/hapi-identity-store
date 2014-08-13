@@ -3,11 +3,9 @@
 [![NPM Version](http://img.shields.io/npm/v/hapi-identity-store.svg)](https://www.npmjs.org/package/hapi-identity-store)
 [![Dependency Status](https://gemnasium.com/codedoctor/hapi-identity-store.svg)](https://gemnasium.com/codedoctor/hapi-identity-store)
 [![NPM Downloads](http://img.shields.io/npm/dm/hapi-identity-store.svg)](https://www.npmjs.org/package/hapi-identity-store)
-[![Issues](http://img.shields.io/github/issues/codedoctor/.svg)](https://github.com/codedoctor/hapi-identity-store/issues)
+[![Issues](http://img.shields.io/github/issues/codedoctor/hapi-identity-store.svg)](https://github.com/codedoctor/hapi-identity-store/issues)
 [![HAPI 6.0](http://img.shields.io/badge/hapi-6.0-blue.svg)](http://hapijs.com)
 [![API Documentation](http://img.shields.io/badge/API-Documentation-ff69b4.svg)](http://coffeedoc.info/github/codedoctor/hapi-identity-store)
-
-
 
 (C) 2014 Martin Wawrusch
 
@@ -23,7 +21,7 @@ Plugin exposes models/methods for identity management. Will be documented upon r
 * [hapi-routes-roles](https://github.com/codedoctor/hapi-routes-roles)
 * [hapi-routes-status](https://github.com/codedoctor/hapi-routes-status)
 * [hapi-routes-users-authorizations](https://github.com/codedoctor/hapi-routes-users-authorizations)
-* [hapi-routes-users-oauth-management](https://github.com/codedoctor/hapi-routes-users-oauth-management)
+* [hapi-routes-oauth-management](https://github.com/codedoctor/hapi-routes-oauth-management)
 * [hapi-routes-users](https://github.com/codedoctor/hapi-routes-users)
 
 and additionally
